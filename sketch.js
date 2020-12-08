@@ -68,6 +68,6 @@ function draw() {
 
 function keyPressed(){
 	if(keyCode === UP_ARROW){
-		Matter.Body.setPosition(bob1.body,{x: 310,y: 340})
+		Matter.Body.setPosition(bob1.body,{x: 250,y: 320})
 	}
 }
