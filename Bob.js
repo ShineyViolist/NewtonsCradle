@@ -7,7 +7,7 @@ class Bob{
             density:0.2
         }
         this.body = Bodies.circle(x,y,20,options);
-        this.body.frictionAir(0);
+        this.body.frictionAir = 0;
         this.radius = 20;
         World.add(world,this.body);
     }
